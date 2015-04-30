@@ -1,0 +1,74 @@
+
+#dependencies
+
+this program ha been developed under the pvbrowser suit, free software under the gpl2 license. it can be download for free at: www.pvbrowser.org.
+it uses it's libraries. rllib, and pvserver.
+it uses also QT4 and sqlite3
+
+#installation
+
+1.-qmake
+
+2.-make clean
+
+3.-make
+
+4.-Finally it has 3 executables:
+ modbus_client [.ini] for communications
+ rb1000 as server
+ pvbrowser as client (provided by the pvbrowser suit)
+
+#images license
+./images/banner_logo.png
+./images/calandra_chica.PNG
+./images/calandra_grande.PNG
+./images/maquina.jpg
+./images/mat_abajo.PNG
+./images/mat_abajo_d.PNG
+./images/mat_abajo_r.PNG
+./images/mat_arriba.PNG
+./images/mat_arriba_d.PNG
+./images/mat_arriba_r.PNG
+./images/PLC1.PNG
+./images/PLC2.PNG
+./images/Brazo2_rojo.png      
+./images/Empujador_verde.png  
+./images/Brazo2_verde2.png    
+./images/fondo                
+./images/mat_abajo_r.PNG
+./images/Brazo3.png           
+./images/fondo_hmi.jpg        
+./images/Brazo1.png         
+./images/Brazo3_rojo2.png     
+./images/fondo.png            
+./images/Brazo1_rojo2.png   
+./images/Brazo3_rojo.png      
+./images/Globo_OFF.png
+./images/Brazo1_rojo.png    
+./images/Brazo3_verde2.png    
+./images/Globo_ON.png
+./images/Brazo1_verde2.png  
+./images/Brazo3_verde.png     
+./images/green.png
+./images/Brazo1_verde.png   
+./images/grey.png             
+./images/RB1000.png
+./images/Brazo2.png         
+./images/red.png
+./images/Brazo2_rojo2.png   
+./images/Empujador_rojo.png 
+
+
+are licensed under CC-BY-SA
+copyright 2012-2015 Prointegra S.L. , mail: correo@prointegra.com
+
+#database
+program uses a sqlite3 database file named users.DB
+there are suers and password, and accumulative meters of material worked.
+
+for testing we can use:
+user: admin
+pass: 123456
+with full privileges
+
+
