@@ -1,7 +1,7 @@
 /*
-Copyright 2018 by it's authors (see AUTHORS)
-
 This file is part of SCADA Plastic rolling machine.
+
+Copyright 2018, Prointegra SL.
 
 SCADA Plastic rolling machine is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
