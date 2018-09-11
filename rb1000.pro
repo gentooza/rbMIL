@@ -18,6 +18,24 @@ HEADERS += pvapp.h      \
            mask3_slots.h \
            mask2_slots.h \
            mask1_slots.h 
+################################################################
+#This file is part of SCADA Plastic rolling machine.
+#
+#Copyright 2018, Prointegra SL.
+#
+#SCADA Plastic rolling machine is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License# as published by
+#the Free Software Foundation, either version 3 of the License, or
+#(at your option) any later version.
+#
+#SCADA Plastic rolling machiner is distributed in the hope that it will 
+#be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+#
+#You should have received a copy of the GNU General Public License
+#along with SCADA Plastic rolling machine.  
+#If not, see <https://www.gnu.org/licenses/>.
+###############################################################
 
 SOURCES += alarm.cpp
 SOURCES += piUsrMgnt.cc

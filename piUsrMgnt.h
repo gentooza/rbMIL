@@ -1,27 +1,20 @@
-/*!
+/*
+This file is part of SCADA Plastic rolling machine.
 
-   SCADA users managment interfaze v0.0.4
+Copyright 2018, Prointegra SL.
 
-   copyright 2014 by its authors
+SCADA Plastic rolling machine is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
 
-   This program is free software; you can redistribute it and/or modify  
-   it under the terms of the GNU General Public License as published by  
-   the Free Software Foundation; either version 3 of the License, or     
-   (at your option) any later version.                                   
-                                                                         
-   This program is distributed in the hope that it will be useful,       
-   but WITHOUT ANY WARRANTY; without even the implied warranty of        
-   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         
-   GNU General Public License for more details.                          
-                                                                         
-   You should have received a copy of the GNU General Public License     
-   along with this program; if not, write to the                         
-   Free Software Foundation, Inc.,                                      
-   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             
+SCADA Plastic rolling machiner is distributed in the hope that it will 
+be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
 
-
-   See files AUTHORS and LICENSE for more information
-
+You should have received a copy of the GNU General Public License
+along with SCADA Plastic rolling machine.  
+If not, see <https://www.gnu.org/licenses/>.
 */
 /*!
 @File piUsrMgnt.h
