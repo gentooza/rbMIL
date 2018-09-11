@@ -2,7 +2,7 @@
 #dependencies
 
 this program ha been developed under the pvbrowser suit, free software under the gpl2 license. it can be download for free at: www.pvbrowser.org.
-it uses it's libraries. rllib, and pvserver.
+it uses it's libraries. rllib, and pvslib, and it's client *pvbrowser*.
 it uses also QT4 and sqlite3
 
 #installation
