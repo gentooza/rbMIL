@@ -57,6 +57,7 @@ it uses also QT4 and sqlite3
 ./images/red.png
 ./images/Brazo2_rojo2.png   
 ./images/Empujador_rojo.png 
+./images/alarms_example.png 
 
 
 are licensed under CC-BY-SA
@@ -71,6 +72,37 @@ user: admin
 pass: 123456
 with full privileges
 
+#system alarms
+for using the pvbrowser HTML alarms widget you'll have to set a file called *alarms.csv* here in the program root directory, when compiling.
+
+this file will contain alarms and warning declarations, it's structure is:
+
+```
+<alarm_tag>TAB<alarm_message>TAB<blank>TAB<w/a (warning or alarm)
+```
+
+you can see the image *./images/alarms_example.png* for a fully functional example with the current code:
+
+```
+W_TRAINO	Imposible funcionar sin subir el traino		w
+AL_PAROCCM1	Paro de emergencia Seta del cuadro de control		a
+AL_PAROC1	Paro de emergencia Seta del cuadro rebobinadora 1		a
+AL_PAROC2	Paro de emergencia Seta del cuadro desbobinadora		a
+AL_PAROC3	Paro de emergencia Seta del cuadro rebobinadora 2		a
+AL_PAROC4	Paro de emergencia Seta del cuadro de pisones de mesa, desbobinadora		a
+W_BRAZOD	Imposible funcionar, subir el brazo del desbobinador		w
+W_BRAZOR1	Imposible funcionar, subir el brazo del rebobinador1		w
+W_BRAZOR2	Imposible funcionar, subir el brazo del rebobinador2		w
+W_GLOBOD	Imposible funcionar, hinchar el eje del desbobinador		w
+W_GLOBOR1	Imposible funcionar, hinchar el eje del rebobinador1		w
+W_GLOBOR2	Imposible funcionar, hinchar el eje del rebobinador2		w
+W_METROSALCZ	Parada por metros alcanzada		w
+W_DIAMETROALCZ	Parada por diámetro alcanzada		w
+AL_ETHCAT_D	ERROR de comunicaciones Ethercat en el driver 1		a
+AL_ETHCAT_R1	ERROR de comunicaciones Ethercat en el driver 2		a
+AL_ETHCAT_R2	ERROR de comunicaciones Ethercat en el driver 3		a
+AL_ETHCAT_T	ERROR de comunicaciones Ethercat en el driver 4		a
+```
 
 #Copyright
 Copyright (C) 2018 Prointegra SL
