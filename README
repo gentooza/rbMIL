@@ -104,6 +104,10 @@ AL_ETHCAT_R2	ERROR de comunicaciones Ethercat en el driver 3		a
 AL_ETHCAT_T	ERROR de comunicaciones Ethercat en el driver 4		a
 ```
 
+#Authors
+Pro Integra Sl <administracion (at) prointegra (dot) com>
+Joaquín Cuéllar <joa.cuellar (at) riseup (dot) net>
+
 #Copyright
 Copyright (C) 2018 Prointegra SL
 
