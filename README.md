@@ -1,13 +1,13 @@
 This program was once hosted in GNU Savannah:
 https://savannah.nongnu.org/support/?109551
 
-#Dependencies
+# Dependencies
 
 this program ha been developed under the pvbrowser suit, free software under the gpl2 license. it can be download for free at: www.pvbrowser.org.
 it uses it's libraries. rllib, and pvslib, and it's client *pvbrowser*.
 it uses also QT4 and sqlite3
 
-#Installation
+# Installation
 
 1.-qmake
 
@@ -21,7 +21,7 @@ it uses also QT4 and sqlite3
  rb1000 as server
  pvbrowser as client (provided by the pvbrowser suit)
 
-#Images license
+# Images license
 
 ./images/banner_logo.png
 ./images/calandra_chica.PNG
@@ -67,7 +67,7 @@ it uses also QT4 and sqlite3
 are licensed under CC-BY
 copyright 2012-2018 Prointegra S.L. , mail: administracion@prointegra.com
 
-#database
+# Database
 
 program uses a sqlite3 database file named users.DB
 there are suers and password, and accumulative meters of material worked.
@@ -77,7 +77,7 @@ user: admin
 pass: 123456
 with full privileges
 
-#system alarms
+# System alarms
 
 for using the pvbrowser HTML alarms widget you'll have to set a file called *alarms.csv* here in the program root directory, when compiling.
 
@@ -110,16 +110,16 @@ AL_ETHCAT_R2	ERROR de comunicaciones Ethercat en el driver 3		a
 AL_ETHCAT_T	ERROR de comunicaciones Ethercat en el driver 4		a
 ```
 
-#Authors
+# Authors
 
 Pro Integra Sl <administracion (at) prointegra (dot) com>
 Joaquín Cuéllar <joa.cuellar (at) riseup (dot) net>
 
-#Copyright
+# Copyright
 
 Copyright (C) 2018 Prointegra SL
 
-#License
+# License
 
 ```
 SCADA plastic rolling machine is free software: you can redistribute it and/or modify
