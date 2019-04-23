@@ -1,23 +1,3 @@
-# Dependencies
-
-this program ha been developed under the pvbrowser suit, free software under the gpl2 license. it can be download for free at: www.pvbrowser.org.
-it uses it's libraries. rllib, and pvslib, and it's client *pvbrowser*.
-it uses also QT4 and sqlite3
-
-# Installation
-
-1.-qmake
-
-2.-make clean
-
-3.-make
-
-4.-Finally it has 3 executables:
-
- modbus_client [.ini] for communications
- rb1000 as server
- pvbrowser as client (provided by the pvbrowser suit)
-
 # Images license
 
 ./images/banner_logo.png
@@ -68,49 +48,6 @@ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 ```
 
 copyright 2012-2018 Prointegra S.L. , mail: administracion@prointegra.com
-
-# Database
-
-program uses a sqlite3 database file named users.DB
-there are suers and password, and accumulative meters of material worked.
-
-for testing we can use:
-user: admin
-pass: 123456
-with full privileges
-
-# System alarms
-
-for using the pvbrowser HTML alarms widget you'll have to set a file called *alarms.csv* here in the program root directory, when compiling.
-
-this file will contain alarms and warning declarations, it's structure is:
-
-```
-<alarm_tag>TAB<alarm_message>TAB<blank>TAB<w/a (warning or alarm)
-```
-
-you can see the image *./images/alarms_example.png* for a fully functional example with the current code:
-
-```
-W_TRAINO	Imposible funcionar sin subir el traino		w
-AL_PAROCCM1	Paro de emergencia Seta del cuadro de control		a
-AL_PAROC1	Paro de emergencia Seta del cuadro rebobinadora 1		a
-AL_PAROC2	Paro de emergencia Seta del cuadro desbobinadora		a
-AL_PAROC3	Paro de emergencia Seta del cuadro rebobinadora 2		a
-AL_PAROC4	Paro de emergencia Seta del cuadro de pisones de mesa, desbobinadora		a
-W_BRAZOD	Imposible funcionar, subir el brazo del desbobinador		w
-W_BRAZOR1	Imposible funcionar, subir el brazo del rebobinador1		w
-W_BRAZOR2	Imposible funcionar, subir el brazo del rebobinador2		w
-W_GLOBOD	Imposible funcionar, hinchar el eje del desbobinador		w
-W_GLOBOR1	Imposible funcionar, hinchar el eje del rebobinador1		w
-W_GLOBOR2	Imposible funcionar, hinchar el eje del rebobinador2		w
-W_METROSALCZ	Parada por metros alcanzada		w
-W_DIAMETROALCZ	Parada por diámetro alcanzada		w
-AL_ETHCAT_D	ERROR de comunicaciones Ethercat en el driver 1		a
-AL_ETHCAT_R1	ERROR de comunicaciones Ethercat en el driver 2		a
-AL_ETHCAT_R2	ERROR de comunicaciones Ethercat en el driver 3		a
-AL_ETHCAT_T	ERROR de comunicaciones Ethercat en el driver 4		a
-```
 
 # Authors
 
