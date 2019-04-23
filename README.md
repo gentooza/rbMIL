@@ -63,8 +63,13 @@ it uses also QT4 and sqlite3
 ./images/Empujador_rojo.png 
 ./images/alarms_example.png 
 
+```
+This work is licensed under the Creative Commons Attribution 3.0 Unported License. 
+You should have received a copy of the Creative Commons Attribution 3.0 Unported License along with this program.
+To view a copy of this license, visit http://creativecommons.org/licenses/by/3.0/
+or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+```
 
-are licensed under CC-BY
 copyright 2012-2018 Prointegra S.L. , mail: administracion@prointegra.com
 
 # Database
